@@ -24,7 +24,7 @@
                       <input
                         type="file"   
                         v-on:change="handleImageUpload" 
-                      ></input>
+                      > </input>
                     </v-col>
 
                     <v-col cols="1" sm="6" md="4">
@@ -199,6 +199,7 @@ export default {
       this.editedItem = Object.assign({}, item);
       this.dialog = true;
     },
+    
 
     async deleteItem(item) {
       // this.editedIndex = this.desserts.indexOf(item);

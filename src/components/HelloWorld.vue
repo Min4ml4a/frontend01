@@ -12,9 +12,9 @@
         </v-carousel>
       </v-col>
 
-      <v-col class="mb-4">
-        <h1 class="display-2 font-weight-bold mb-3" >
-          Welcome to Category
+      <v-col class="mb-16 my-16">
+        <h1 class="display-2 font-weight-bold mb-3">
+          Category Game 
         </h1><br>      
       </v-col>
     </v-row>
@@ -65,9 +65,9 @@ export default {
       }
     ],
     items: [
-        { src: 'https://media.wired.com/photos/598e35fb99d76447c4eb1f28/master/pass/phonepicutres-TA.jpg' },
-        { src: 'https://static.toiimg.com/photo/msid-53891743,width-96,height-65.cms' },
-        { src: 'https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340' },
+        { src: 'https://img.4gamers.com.tw/news-image/b5fef64a-57d8-49e0-b016-6ad5b1d9f805.jpg' },
+        { src: 'https://www.riotgames.com/darkroom/1000/e69e5ec20508361cd841bc66730f4797:2651bc6bea7cd3f81703426410705268/110322-xbox-pass-1920x1080-article.png' },
+        { src: 'https://mpics.mgronline.com/pics/Images/556000000095001.JPEG' },
         // เพิ่มรูปภาพเพิ่มเติมตามต้องการ
       ],
 
@@ -98,6 +98,9 @@ export default {
         this.username = 'Vuetify'
       }
     }
-  }
+  },
+  gotoHomepage() {
+      this.$router.push("/Homepage");
+    },
 }
 </script>
